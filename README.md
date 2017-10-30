@@ -10,13 +10,13 @@ This Template and Blueprint combination provides the ability to include a [Twitt
 
 ## Using the Installed Template and Blueprint in the Admin Panel
 1. Add a new page, using the `my-twitter-widget` template:
-!['New Twitter Widget Page](https://github.com/paulhibbitts/github-repo-images/blob/master/twitter-widget-page-add.png?raw=true)  
+![New Twitter Widget Page](https://github.com/paulhibbitts/github-repo-images/blob/master/twitter-widget-page-add.png?raw=true)  
 It is recommend that `Visible` is set to `No` to avoid adding a numeric prefix to the default page filename.  
 
 2. Display the newly created Twitter Widget within a Page, either by using the Page Inject plugin (```[plugin:page-inject](/my-twitter-widget)```) or by using Twig (e.g. ```{{ page.find('my-twitter-widget').content } }}```).
 
 ## Editing an Twitter Widget Page in the Admin Panel
-!['Editing Twitter Widget Page](https://github.com/paulhibbitts/github-repo-images/blob/master/twitter-widget-page-edit.png?raw=true)
+![Editing Twitter Widget Page](https://github.com/paulhibbitts/github-repo-images/blob/master/twitter-widget-page-edit.png?raw=true)
 
 ## Using the Twitter Widget Template in Page Frontmatter
 
@@ -35,4 +35,4 @@ visible: false
 ```
 
 ## Example Twitter Widget Page
-!['Example Twitter Widget Page](https://github.com/paulhibbitts/github-repo-images/blob/master/twitter-widget-example.png?raw=true)
+![Example Twitter Widget Page](https://github.com/paulhibbitts/github-repo-images/blob/master/twitter-widget-example.png?raw=true)
