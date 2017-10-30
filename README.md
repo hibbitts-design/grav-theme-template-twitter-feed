@@ -6,7 +6,7 @@ This Template and Blueprint combination provides the ability to include a [Twitt
 * Copy the file `twitterwidget.html.twig` to the `templates` folder in your active Theme folder
 
 ## Installing the Blueprint
-* Copy the file `my-twitter-widget.yaml` to the `blueprints` folder in your active Theme folder
+* Copy the file `twitterwidget.yaml` to the `blueprints` folder in your active Theme folder
 
 ## Using the Installed Template and Blueprint in the Admin Panel
 1. Add a new page, using the `my-twitter-widget` template:
