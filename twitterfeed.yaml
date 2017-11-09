@@ -16,13 +16,13 @@ form:
                   size: long
                   label: Page Title
 
-                header.twitter_widget_text:
+                header.twitter_feed_text:
                     ordering@: 1
                     type: text
                     size: long
                     label: Twitter Widget Text
 
-                header.twitter_widget_url:
+                header.twitter_feed_url:
                     ordering@: 2
                     type: text
                     size: long
@@ -30,7 +30,7 @@ form:
                     validate:
                       type: URL
 
-                header.twitter_widget_height:
+                header.twitter_feed_height:
                     ordering@: 3
                     type:                      text
                     size:                      small
