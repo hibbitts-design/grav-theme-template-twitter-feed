@@ -20,13 +20,13 @@ form:
                     ordering@: 1
                     type: text
                     size: long
-                    label: Twitter Widget Text
+                    label: Twitter Feed Text
 
                 header.twitter_feed_url:
                     ordering@: 2
                     type: text
                     size: long
-                    label: Twitter Widget URL
+                    label: Twitter Feed URL
                     validate:
                       type: URL
 
@@ -34,7 +34,7 @@ form:
                     ordering@: 3
                     type:                      text
                     size:                      small
-                    label:                     Twitter Widget Height (px)
+                    label:                     Twitter Feed Height (px)
                     default:                   600
                     validate:
                         type:                  int
