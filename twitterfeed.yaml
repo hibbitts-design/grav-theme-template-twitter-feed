@@ -1,4 +1,4 @@
-title: Twitter Widget
+title: Twitter Feed
 '@extends':
     type: default
     context: blueprints://pages
